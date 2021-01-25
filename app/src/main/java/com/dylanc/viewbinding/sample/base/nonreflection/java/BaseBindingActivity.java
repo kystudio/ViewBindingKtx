@@ -8,8 +8,6 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewbinding.ViewBinding;
 
-import com.dylanc.viewbinding.base.ViewBindingUtil;
-
 
 public abstract class BaseBindingActivity<VB extends ViewBinding> extends AppCompatActivity {
 

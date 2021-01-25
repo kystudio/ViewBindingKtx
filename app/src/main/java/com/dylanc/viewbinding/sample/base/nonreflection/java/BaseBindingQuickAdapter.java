@@ -9,7 +9,6 @@ import androidx.viewbinding.ViewBinding;
 
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.chad.library.adapter.base.viewholder.BaseViewHolder;
-import com.dylanc.viewbinding.base.ViewBindingUtil;
 
 import org.jetbrains.annotations.NotNull;
 
@@ -21,7 +20,7 @@ public abstract class BaseBindingQuickAdapter<T, VB extends ViewBinding>
   }
 
   public BaseBindingQuickAdapter(@LayoutRes int layoutResId) {
-    super(-layoutResId);
+    super(layoutResId);
   }
 
   @NotNull

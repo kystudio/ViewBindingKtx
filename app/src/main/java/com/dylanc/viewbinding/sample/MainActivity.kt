@@ -2,13 +2,10 @@ package com.dylanc.viewbinding.sample
 
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.drakeet.multitype.MultiTypeAdapter
-import com.dylanc.viewbinding.nonreflection.binding
 import com.dylanc.viewbinding.sample.base.nonreflection.kotlin.BaseBindingActivity
 import com.dylanc.viewbinding.sample.databinding.ActivityMainBinding
 import com.dylanc.viewbinding.sample.item.Foo
 import com.dylanc.viewbinding.sample.item.FooAdapter
-import com.dylanc.viewbinding.sample.item.FooViewDelegate
 
 class MainActivity : BaseBindingActivity<ActivityMainBinding>(ActivityMainBinding::inflate) {
 
